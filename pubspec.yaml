@@ -1,0 +1,18 @@
+name: dartboot_example
+description: A example server application built by dartboot cloud.
+# version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
+dependencies:
+  dartboot_core: ^1.0.0
+  dartboot_mysql: ^1.0.1
+  dartboot_db: ^1.0.3
+  dartboot_util: ^1.0.0
+
+dev_dependencies:
+  build: ^1.2.2
+  build_runner: ^1.9.0
+  source_gen: ^0.9.4+6
