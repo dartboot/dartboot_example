@@ -17,9 +17,9 @@ server:
 database:
   mysql:
     dev:
-      host: 192.168.1.225
+      host: 192.168.1.xx
       port: 3306
-      db: dev
-      username: root
-      password: root
+      db: xx
+      username: xx
+      password: xx
       max-pool-size: 2

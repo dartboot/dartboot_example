@@ -8,9 +8,9 @@ environment:
 
 dependencies:
   dartboot_core: ^1.0.0
-  dartboot_mysql: ^1.0.1
+  dartboot_mysql: ^1.0.2
   dartboot_db: ^1.0.3
-  dartboot_util: ^1.0.0
+  dartboot_util: ^1.0.1
 
 dev_dependencies:
   build: ^1.2.2

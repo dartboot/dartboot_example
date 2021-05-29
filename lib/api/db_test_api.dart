@@ -3,10 +3,10 @@ import 'package:dartboot_mysql/dartboot_mysql.dart';
 import 'package:dartboot_db/dartboot_db.dart';
 import 'package:dartboot_util/dartboot_util.dart';
 
-/// 数据库Test接口类
+@Api('Database test api')
 @RestController('/db_test')
 class SimpleTestApi {
-  @Api('测试查询接口')
+  @Api('Test query db')
   @Get('/api1')
   Future api1(@Query('name') String name,
       @Query('size', defaultValue: 2) int size) async {
